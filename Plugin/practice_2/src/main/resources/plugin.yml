@@ -1,0 +1,4 @@
+name: practice_2
+version: '${version}'
+main: com.github.majisyou.practice_2.Practice_2
+api-version: '1.20'
