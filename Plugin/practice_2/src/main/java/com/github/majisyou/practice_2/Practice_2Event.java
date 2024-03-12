@@ -13,6 +13,9 @@ public class Practice_2Event implements Listener {
      * 変数：PlayerInteractEntityEvent event
      * 結果：void
      * */
+
+    // Event cancel とか
+    // ignoreCancelled = trueとかがある
     @EventHandler(priority = EventPriority.NORMAL)
     public void onEntityRightClick(PlayerInteractEntityEvent event){
         if(event.getRightClicked() instanceof Cow cow){
